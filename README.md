@@ -1,3 +1,6 @@
+This is a fork which sets the category to an app instead of a game
+------------------------------------------------------------------
+
 Android TV Plugin for Cordova
 ==============================
 

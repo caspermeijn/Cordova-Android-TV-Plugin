@@ -19,9 +19,9 @@ module.exports = function(context) {
         
         var result;
         
-        if (!(/<application[^>]*\bandroid:isGame="true"/).test(data)) {
+        if (!(/<application[^>]*\bandroid:isGame="false"/).test(data)) {
             
-            result = data.replace(/<application/g, '<application android:isGame="true"');
+            result = data.replace(/<application/g, '<application android:isGame="false"');
             
         }
         else {
